@@ -1,0 +1,2 @@
+# PublicOpinionAnalysisofPH
+透過蒐集大量公共衛生新聞內容後加以分析判斷輿情。

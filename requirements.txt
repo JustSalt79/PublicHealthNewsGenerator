@@ -1,3 +1,17 @@
+# Web framework for creating the application
 streamlit==1.22.0
+
+# For making HTTP requests to PubMed and Google Scholar
+requests==2.26.0
+
+# For parsing HTML and XML responses
+beautifulsoup4==4.10.0
+
+# For text translation
 googletrans==3.1.0a0
-openai==0.27.7
+
+# OpenAI API for content generation
+openai==0.27.0
+
+# XML parsing (used with BeautifulSoup for PubMed results)
+lxml==4.9.2

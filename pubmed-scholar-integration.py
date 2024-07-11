@@ -89,7 +89,7 @@ def generate_content_with_references(prompt, topic, references):
         prompt += f"\n{i}. {result['title']} : {abstract} - {result['url']}"
    
     response = openai.ChatCompletion.create(
-        model="gpt-4",
+        model="gpt-4o",
         messages=[
             {"role": "system", "content": "You are a public health news journalist. When citing references in the text, use only the format [number]. At the end of the article, provide a full list of references using the format: [number] Title. Authors. Journal. URL"},
             {"role": "user", "content": prompt}
